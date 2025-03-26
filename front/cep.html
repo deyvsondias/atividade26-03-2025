@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>buscarEndereco</title>
+    
+</head>
+<body>
+    <div class="titulo">
+       
+    </div>
+    <div class="box">
+        <form id="formBuscaEndereco">
+            <fieldset>
+                <legend><b>Endereço pelo CEP</b></legend>
+                <div class="inputbox">
+                    <input type="text" name="cep" id="cep" class="inputUser" placeholder="Digite o CEP" required>
+                    <label for="cep" class="labelinput">CEP:</label>
+                </div>
+                <button type="submit">Buscar Endereço</button>
+                <br><br>
+                <div class="inputbox">
+                    <input type="text" id="rua" class="inputUser" placeholder="Rua" readonly>
+                    <label for="rua" class="labelinput">Rua:</label>
+                </div>
+                <div class="inputbox">
+                    <input type="text" id="bairro" class="inputUser" placeholder="Bairro" readonly>
+                    <label for="bairro" class="labelinput">Bairro:</label>
+                </div>
+                <div class="inputbox">
+                    <input type="text" id="cidade" class="inputUser" placeholder="Cidade" readonly>
+                    <label for="cidade" class="labelinput">Cidade:</label>
+                </div>
+                <div class="inputbox">
+                    <input type="text" id="cepRetornado" class="inputUser" placeholder="CEP" readonly>
+                    <label for="cepRetornado" class="labelinput">CEP Retornado:</label>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+<script src="../back/script.js"></script>
+</body>
+</html>
